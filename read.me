@@ -1,0 +1,36 @@
+How to build
+
+Our goal is to build a to-do list Android app.
+By far we have made our basic structure for our app and several fundamental functions.
+We used some sample code from Google and Android studio as a starting point.
+The app could run on an android device by using Android Studio.
+It’s a fairly simple application at the moment.
+First, download our project for GitLab, then open it in Android Studio, and you could actually see our source code in the main window.
+After that, connect your Android device to the computer and push the “Run ‘app’” button in the bar,
+choose the device you want to use and click OK. After a couple of minutes, you could see our application running on your device.
+The minimum Android SDK version is 14, the target SDK version is 17.
+
+
+About Our App
+
+When the app is opened, it first displays an interface for users to register or sign in.
+In the future we are going to connect it to the database, but right now we just want it to work.
+Therefore, we temporarily use hard code. Please use “foo@example.com” as account and “hello” as password to log in.
+
+After logging in, it will go to our main interface where we want to displays all the existing to-does.
+Obviously, it’s empty right now. At the top left corner, it says “todoList Application” to mark the name.
+At the right bottom corner, there’s a “add todo” button for user to add new to-do item.
+
+After clicking the “add todo” button, it pops out a form with different fields for user to complete.
+Currently we have title and description for user to type in whatever they want.
+Also, we have a checkbox to show whether this item is complete.
+To be honest this is not what we want when users want to add new things, but it’s something when user clicking the existing items.
+We are going to fix that in the next version.
+Date is displayed just below that checkbox, when you click it, it would show a calendar where user could pick the date they want.
+At last, it’s the add button to add the todo item to the list.
+After that, it would display this item at the main interface.
+For now, we haven't used a database to store items, all the items will be gone once the app is closed.
+
+If you click the top left corner or scroll from left edge of screen to the right, it would display a sidebar where user could choose different command.
+Right now we haven’t implement any function into it.
+If you click “Setting”, you will find that it’s a fake button doing nothing but show an empty setting page.

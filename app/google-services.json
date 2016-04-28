@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1033022394700",
+    "project_id": "taski---surface4"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033022394700:android:9bf21e28ce24c469",
+        "android_client_info": {
+          "package_name": "com.veggies.android.todoList"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033022394700-ir7ubd7f26k2vj0cg4h5njkgtec0t46b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veggies.android.todoList",
+            "certificate_hash": "C1A5971B07765C8FF5A3E630F5A295E4D0B6FB66"
+          }
+        },
+        {
+          "client_id": "1033022394700-557o8tbvntubnjndg6sf9nt7krhf7ovs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqImG0ligB1e5M3uPTG-5_RA3vJW_f3Gk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

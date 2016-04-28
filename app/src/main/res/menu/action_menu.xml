@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.veggies.android.todoList.MainActivity" >
+    <item android:id="@+id/actionmenu_list_type"
+        android:title="@string/list_type"
+        compat:showAsAction="ifRoom|withText" />
+</menu>

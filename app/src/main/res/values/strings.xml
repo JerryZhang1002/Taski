@@ -1,0 +1,80 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Taski</string>
+    <string-array name="drawer_array">
+        <item name="list">@string/drawer_item_list</item>
+        <item name="setting">@string/drawer_item_setting</item>
+    </string-array>
+    <string name="drawer_item_list">Todo List</string>
+    <string name="drawer_item_setting">Setting</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to settings -->
+    <string name="remember_password">Remember Password</string>
+    <string name="auto_login">Auto Login</string>
+    <string name="app_settings">Application Settings</string>
+    <string name="selected">Selected</string>
+    <string name="not_selected">Not selected</string>
+    <string name="remem_pwd_setting">remem_pwd_setting</string>
+    <string name="auto_login_setting">auto_login_setting</string>
+    <!-- Strings related to activity_popup_window -->
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="completed">completed</string>
+    <string name="edited">edited</string>
+    <string name="additem">Save</string>
+    <string name="deleteitem">Delete</string>
+    <string name="tasklist">Task List</string>
+    <string name="server_client_id">989633319216-nagbk8jj51k6a2cp7dtttp70014tghb8.apps.googleusercontent.com</string>
+    <string-array name="tasklists_array">
+        <item>Default</item>
+        <item>Personal</item>
+        <item>Shopping</item>
+        <item>Wishlist</item>
+        <item>Work</item>
+    </string-array>
+    <!-- Strings related to MainActivity -->
+    <string name="list_type">LIST TYPE</string>
+    <string-array name="types">
+        <item>All Lists</item>
+        <item>Default</item>
+        <item>Personal</item>
+        <item>Shopping</item>
+        <item>Wishlist</item>
+        <item>Work</item>
+        <item>Unfinished Lists</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="taski">Taski</string>
+</resources>

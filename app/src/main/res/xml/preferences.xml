@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory android:title="@string/app_settings">
+        <SwitchPreference
+            android:key="@string/remem_pwd_setting"
+            android:title="@string/remember_password"
+            android:summaryOn="@string/selected"
+            android:summaryOff="@string/not_selected"
+            android:defaultValue="false"
+            />
+
+        <SwitchPreference
+            android:key="@string/auto_login_setting"
+            android:title="@string/auto_login"
+            android:summaryOn="@string/selected"
+            android:summaryOff="@string/not_selected"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
